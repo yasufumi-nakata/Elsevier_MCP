@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "elsevier-research": {
+      "comment": "🎯 Elsevier学術論文検索MCP (推奨設定)",
+      "command": "python3",
+      "args": [
+        "/full/path/to/elsevier_mcp_complete.py"
+      ],
+      "env": {
+        "ELSEVIER_API_KEY": "YOUR_API_KEY_HERE"
+      }
+    }
+  }
+}
